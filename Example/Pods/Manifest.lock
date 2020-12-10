@@ -1,0 +1,16 @@
+PODS:
+  - RSTableReloadAnimation (0.1.0)
+
+DEPENDENCIES:
+  - RSTableReloadAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  RSTableReloadAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSTableReloadAnimation: e5917c72d94737f3fd04f92a2d5f4ac179e2530f
+
+PODFILE CHECKSUM: 3ce65303a674d07d1320b100fc2facc5d75def9b
+
+COCOAPODS: 1.10.0

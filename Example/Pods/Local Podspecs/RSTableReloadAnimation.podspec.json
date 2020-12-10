@@ -1,0 +1,22 @@
+{
+  "name": "RSTableReloadAnimation",
+  "version": "0.1.0",
+  "summary": "当table进行绘制视图时可进行cell动画",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YunFengChe/RSTableReloadAnimation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YunFengChe": "yunfengchehrs@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/YunFengChe/RSTableReloadAnimation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RSTableReloadAnimation/Classes/**/*"
+}

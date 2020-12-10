@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RSTableReloadAnimation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RSTableReloadAnimation.'
+  s.summary          = '当table进行绘制视图时可进行cell动画'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

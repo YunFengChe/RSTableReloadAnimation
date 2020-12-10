@@ -1,0 +1,6 @@
+framework module RSTableReloadAnimation {
+  umbrella header "RSTableReloadAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

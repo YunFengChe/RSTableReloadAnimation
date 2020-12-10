@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BAA3B448BD8D91BA7703ED89722BA88 /* UITableView+AnimalCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D61146A0FC06AF1E86912DD6D7C0E7 /* UITableView+AnimalCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3011A14E2ED83B19492EBC9B3FBB233B /* Pods-RSTableReloadAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F453C276FA4FFE93C05D355FC19FAD /* Pods-RSTableReloadAnimation_Example-dummy.m */; };
+		4122B0B3AD6189318698D5B1F809153C /* Pods-RSTableReloadAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE957303B29EF8F8F214E19F2E7ABCA9 /* Pods-RSTableReloadAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2DFED576430F8042A580253ED26697 /* Pods-RSTableReloadAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1635D7C7C1820264026BF07F22F19CF2 /* Pods-RSTableReloadAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB74AF7CA87D559CDEC84D7F900D210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		698277B077191D22404836AA5FE1AEAC /* Pods-RSTableReloadAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE998BFB48405A037596705CF881F2F /* Pods-RSTableReloadAnimation_Tests-dummy.m */; };
+		76CAE7142C73BC970D34A165DA6E1AFF /* UITableView+AnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C69A9ED1B346CCC7C6CA3A04546B4427 /* UITableView+AnimalCell.m */; };
+		81D9DCFD9F1D76686ED167EA79C06EAC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FC71BAA74260D2588DD809D04AA22A94 /* ReplaceMe.m */; };
+		B0A64B3E3C90FB4550B15902801AC9E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5F81E3884AE14B692ABFB6A87486C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CFA8C2ABBD4407BF7A56D3014DB4EC60 /* RSTableReloadAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC330ABF58736688601D47712AF08555 /* RSTableReloadAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2CC7757AB5CB7501AB9AAB68F725842 /* RSTableReloadAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C928CA2BBFF4D994468C6D733146B /* RSTableReloadAnimation-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EAA70379F75D7E8F07D94BDBC5427E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F81E6D6DDA87A0BD23C05122FB4717;
+			remoteInfo = "Pods-RSTableReloadAnimation_Example";
+		};
+		E098503F45D3651425A53DBB49BB9E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244BFD091675B519D7480710CD69EF1F;
+			remoteInfo = RSTableReloadAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F453C276FA4FFE93C05D355FC19FAD /* Pods-RSTableReloadAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSTableReloadAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		04EE21F0EE1F4965C4ABA065D034B562 /* Pods-RSTableReloadAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSTableReloadAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
+		0EFAEFA54AAF25AF5D9D2DECF096D547 /* Pods-RSTableReloadAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSTableReloadAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F644A17ED1F3F5C62B3D8945A8C267F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		147017D0543023DB49F01CC5BA84677F /* Pods-RSTableReloadAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSTableReloadAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15FE92F2F67E54FB5CB82D7EBD71780A /* Pods-RSTableReloadAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSTableReloadAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1635D7C7C1820264026BF07F22F19CF2 /* Pods-RSTableReloadAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSTableReloadAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F2779D633AEB841D5C938D261F02428 /* RSTableReloadAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSTableReloadAnimation.debug.xcconfig; sourceTree = "<group>"; };
+		21A34A1E50AD16374183E58485A94154 /* Pods-RSTableReloadAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSTableReloadAnimation_Example-Info.plist"; sourceTree = "<group>"; };
+		28DEA3780B857D1B654C49E7E0F4FD0D /* Pods-RSTableReloadAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSTableReloadAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA3BC38C24D59AE284D095460FFC0CA /* Pods-RSTableReloadAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSTableReloadAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		2D96733146BCF4AF4B1EEBC8C57014CC /* RSTableReloadAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RSTableReloadAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		312DA88EBBA45385771510D37B65C456 /* Pods_RSTableReloadAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSTableReloadAnimation_Tests.framework; path = "Pods-RSTableReloadAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE998BFB48405A037596705CF881F2F /* Pods-RSTableReloadAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSTableReloadAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		5A6970C8C882EF01C1E3369EA3BB50A0 /* Pods-RSTableReloadAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSTableReloadAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		5F8C928CA2BBFF4D994468C6D733146B /* RSTableReloadAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSTableReloadAnimation-dummy.m"; sourceTree = "<group>"; };
+		5FB44E3BFFDED8885813DD0BCA57028B /* Pods-RSTableReloadAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSTableReloadAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		65BCF4069416948F8280257371B1A2C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8EF6BF03051111C62CE66FFB4038AC0B /* RSTableReloadAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSTableReloadAnimation.modulemap; sourceTree = "<group>"; };
+		9916F48559FE545ED185F11DCF3C7806 /* Pods-RSTableReloadAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSTableReloadAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC2B2254F7569D0E3A8C917519AA6A5 /* RSTableReloadAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSTableReloadAnimation.framework; path = RSTableReloadAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8ADAA0F34CD877CE4C4E8FA393FD539 /* RSTableReloadAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSTableReloadAnimation-prefix.pch"; sourceTree = "<group>"; };
+		C0C0AF900FC07F6D4E1C72FA6DA3E340 /* RSTableReloadAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSTableReloadAnimation.release.xcconfig; sourceTree = "<group>"; };
+		C5A65BAB6C1EF11F43A26BA6AC3A317F /* RSTableReloadAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSTableReloadAnimation-Info.plist"; sourceTree = "<group>"; };
+		C69A9ED1B346CCC7C6CA3A04546B4427 /* UITableView+AnimalCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+AnimalCell.m"; sourceTree = "<group>"; };
+		C9E67A431B60ECE1D0684AB0A74F67AD /* Pods_RSTableReloadAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSTableReloadAnimation_Example.framework; path = "Pods-RSTableReloadAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE957303B29EF8F8F214E19F2E7ABCA9 /* Pods-RSTableReloadAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSTableReloadAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF6768FF9CF6DFDE50BBFC312BD92FF6 /* Pods-RSTableReloadAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSTableReloadAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0D61146A0FC06AF1E86912DD6D7C0E7 /* UITableView+AnimalCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+AnimalCell.h"; sourceTree = "<group>"; };
+		FB4D92AB18F6ED9029BA958D5C896F3C /* Pods-RSTableReloadAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSTableReloadAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC330ABF58736688601D47712AF08555 /* RSTableReloadAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSTableReloadAnimation-umbrella.h"; sourceTree = "<group>"; };
+		FC71BAA74260D2588DD809D04AA22A94 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RSTableReloadAnimation/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		FCC6365E38F2185CBB60C536D2CD8984 /* Pods-RSTableReloadAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSTableReloadAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37056F3CF0515D711CFF5C3E6ADDBD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB74AF7CA87D559CDEC84D7F900D210 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1088F7BC8AC9485361FC6142F22DB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A64B3E3C90FB4550B15902801AC9E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B371D714410304A2C9D9ED315F699BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F81E3884AE14B692ABFB6A87486C1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1595CC3703761A7AB435DBEE20706F0A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				65BCF4069416948F8280257371B1A2C1 /* LICENSE */,
+				0F644A17ED1F3F5C62B3D8945A8C267F /* README.md */,
+				2D96733146BCF4AF4B1EEBC8C57014CC /* RSTableReloadAnimation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		169AED85EC7BF1380BDCABC7F4243E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E67A431B60ECE1D0684AB0A74F67AD /* Pods_RSTableReloadAnimation_Example.framework */,
+				312DA88EBBA45385771510D37B65C456 /* Pods_RSTableReloadAnimation_Tests.framework */,
+				9FC2B2254F7569D0E3A8C917519AA6A5 /* RSTableReloadAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C26B65170DF3B181A59653A76B3630 /* RSTableReloadAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FC71BAA74260D2588DD809D04AA22A94 /* ReplaceMe.m */,
+				1595CC3703761A7AB435DBEE20706F0A /* Pod */,
+				B0C5CFDDE70E278F9AD32B3021FB45F3 /* RSTableCellAnimation */,
+				54EBB8A6DB698223A425BF4676322BFE /* Support Files */,
+			);
+			name = RSTableReloadAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54EBB8A6DB698223A425BF4676322BFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EF6BF03051111C62CE66FFB4038AC0B /* RSTableReloadAnimation.modulemap */,
+				5F8C928CA2BBFF4D994468C6D733146B /* RSTableReloadAnimation-dummy.m */,
+				C5A65BAB6C1EF11F43A26BA6AC3A317F /* RSTableReloadAnimation-Info.plist */,
+				B8ADAA0F34CD877CE4C4E8FA393FD539 /* RSTableReloadAnimation-prefix.pch */,
+				FC330ABF58736688601D47712AF08555 /* RSTableReloadAnimation-umbrella.h */,
+				1F2779D633AEB841D5C938D261F02428 /* RSTableReloadAnimation.debug.xcconfig */,
+				C0C0AF900FC07F6D4E1C72FA6DA3E340 /* RSTableReloadAnimation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSTableReloadAnimation";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F7F1DF6F05D3BA90EB176040150C52D /* Pods-RSTableReloadAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2CA3BC38C24D59AE284D095460FFC0CA /* Pods-RSTableReloadAnimation_Example.modulemap */,
+				EF6768FF9CF6DFDE50BBFC312BD92FF6 /* Pods-RSTableReloadAnimation_Example-acknowledgements.markdown */,
+				9916F48559FE545ED185F11DCF3C7806 /* Pods-RSTableReloadAnimation_Example-acknowledgements.plist */,
+				00F453C276FA4FFE93C05D355FC19FAD /* Pods-RSTableReloadAnimation_Example-dummy.m */,
+				15FE92F2F67E54FB5CB82D7EBD71780A /* Pods-RSTableReloadAnimation_Example-frameworks.sh */,
+				21A34A1E50AD16374183E58485A94154 /* Pods-RSTableReloadAnimation_Example-Info.plist */,
+				EE957303B29EF8F8F214E19F2E7ABCA9 /* Pods-RSTableReloadAnimation_Example-umbrella.h */,
+				FCC6365E38F2185CBB60C536D2CD8984 /* Pods-RSTableReloadAnimation_Example.debug.xcconfig */,
+				0EFAEFA54AAF25AF5D9D2DECF096D547 /* Pods-RSTableReloadAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-RSTableReloadAnimation_Example";
+			path = "Target Support Files/Pods-RSTableReloadAnimation_Example";
+			sourceTree = "<group>";
+		};
+		8C601222EC7BEAF17C00CCC32DD16AF8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F1DF6F05D3BA90EB176040150C52D /* Pods-RSTableReloadAnimation_Example */,
+				C6A47EFA8565C31F813A4AAF67FF604B /* Pods-RSTableReloadAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9FC3CEEA15131E6EF831D9AA66672EA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18C26B65170DF3B181A59653A76B3630 /* RSTableReloadAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B0C5CFDDE70E278F9AD32B3021FB45F3 /* RSTableCellAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F0D61146A0FC06AF1E86912DD6D7C0E7 /* UITableView+AnimalCell.h */,
+				C69A9ED1B346CCC7C6CA3A04546B4427 /* UITableView+AnimalCell.m */,
+			);
+			name = RSTableCellAnimation;
+			path = RSTableReloadAnimation/Classes/RSTableCellAnimation;
+			sourceTree = "<group>";
+		};
+		C6A47EFA8565C31F813A4AAF67FF604B /* Pods-RSTableReloadAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6970C8C882EF01C1E3369EA3BB50A0 /* Pods-RSTableReloadAnimation_Tests.modulemap */,
+				FB4D92AB18F6ED9029BA958D5C896F3C /* Pods-RSTableReloadAnimation_Tests-acknowledgements.markdown */,
+				147017D0543023DB49F01CC5BA84677F /* Pods-RSTableReloadAnimation_Tests-acknowledgements.plist */,
+				3EE998BFB48405A037596705CF881F2F /* Pods-RSTableReloadAnimation_Tests-dummy.m */,
+				04EE21F0EE1F4965C4ABA065D034B562 /* Pods-RSTableReloadAnimation_Tests-Info.plist */,
+				1635D7C7C1820264026BF07F22F19CF2 /* Pods-RSTableReloadAnimation_Tests-umbrella.h */,
+				28DEA3780B857D1B654C49E7E0F4FD0D /* Pods-RSTableReloadAnimation_Tests.debug.xcconfig */,
+				5FB44E3BFFDED8885813DD0BCA57028B /* Pods-RSTableReloadAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-RSTableReloadAnimation_Tests";
+			path = "Target Support Files/Pods-RSTableReloadAnimation_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9FC3CEEA15131E6EF831D9AA66672EA6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				169AED85EC7BF1380BDCABC7F4243E1E /* Products */,
+				8C601222EC7BEAF17C00CCC32DD16AF8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14E16BE0C7244A442DE69B8258353DA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA8C2ABBD4407BF7A56D3014DB4EC60 /* RSTableReloadAnimation-umbrella.h in Headers */,
+				2BAA3B448BD8D91BA7703ED89722BA88 /* UITableView+AnimalCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82810CB605B0A5015099D50BF9A05772 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2DFED576430F8042A580253ED26697 /* Pods-RSTableReloadAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E075D7E4FCB43E2C314C44C51E1A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4122B0B3AD6189318698D5B1F809153C /* Pods-RSTableReloadAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		244BFD091675B519D7480710CD69EF1F /* RSTableReloadAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238EA1642683E80FAC29E28D66BC7C57 /* Build configuration list for PBXNativeTarget "RSTableReloadAnimation" */;
+			buildPhases = (
+				14E16BE0C7244A442DE69B8258353DA9 /* Headers */,
+				8EAC35866DDE261F0BC7AB51EC151523 /* Sources */,
+				A1088F7BC8AC9485361FC6142F22DB31 /* Frameworks */,
+				A2CB242A3E98B86ABC3E47EB0F3D47DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSTableReloadAnimation;
+			productName = RSTableReloadAnimation;
+			productReference = 9FC2B2254F7569D0E3A8C917519AA6A5 /* RSTableReloadAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7F81E6D6DDA87A0BD23C05122FB4717 /* Pods-RSTableReloadAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A35B80D3446914536E197CD913666F /* Build configuration list for PBXNativeTarget "Pods-RSTableReloadAnimation_Example" */;
+			buildPhases = (
+				C87E075D7E4FCB43E2C314C44C51E1A8 /* Headers */,
+				AFB248A0FD118ECA83361AEFA3381D21 /* Sources */,
+				37056F3CF0515D711CFF5C3E6ADDBD9A /* Frameworks */,
+				85DC2CA25B0E8E9C40608168A8D9675C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41216E54279003B2293EB35DDFEF4DAF /* PBXTargetDependency */,
+			);
+			name = "Pods-RSTableReloadAnimation_Example";
+			productName = "Pods-RSTableReloadAnimation_Example";
+			productReference = C9E67A431B60ECE1D0684AB0A74F67AD /* Pods_RSTableReloadAnimation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5608D82EFBAAD1408C6A0E4A6A69A20 /* Pods-RSTableReloadAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9722FB1CF24F9AB8C2C6A360DD950C8E /* Build configuration list for PBXNativeTarget "Pods-RSTableReloadAnimation_Tests" */;
+			buildPhases = (
+				82810CB605B0A5015099D50BF9A05772 /* Headers */,
+				486AAB83FCAB2F71220EEF0F2268ACB0 /* Sources */,
+				B371D714410304A2C9D9ED315F699BE0 /* Frameworks */,
+				025EF208CDF7FF4B867032BC814B1201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B10CF65C7E0AED968402C795DB99B20 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSTableReloadAnimation_Tests";
+			productName = "Pods-RSTableReloadAnimation_Tests";
+			productReference = 312DA88EBBA45385771510D37B65C456 /* Pods_RSTableReloadAnimation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 169AED85EC7BF1380BDCABC7F4243E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F81E6D6DDA87A0BD23C05122FB4717 /* Pods-RSTableReloadAnimation_Example */,
+				E5608D82EFBAAD1408C6A0E4A6A69A20 /* Pods-RSTableReloadAnimation_Tests */,
+				244BFD091675B519D7480710CD69EF1F /* RSTableReloadAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025EF208CDF7FF4B867032BC814B1201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DC2CA25B0E8E9C40608168A8D9675C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB242A3E98B86ABC3E47EB0F3D47DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486AAB83FCAB2F71220EEF0F2268ACB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698277B077191D22404836AA5FE1AEAC /* Pods-RSTableReloadAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAC35866DDE261F0BC7AB51EC151523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D9DCFD9F1D76686ED167EA79C06EAC /* ReplaceMe.m in Sources */,
+				D2CC7757AB5CB7501AB9AAB68F725842 /* RSTableReloadAnimation-dummy.m in Sources */,
+				76CAE7142C73BC970D34A165DA6E1AFF /* UITableView+AnimalCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB248A0FD118ECA83361AEFA3381D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3011A14E2ED83B19492EBC9B3FBB233B /* Pods-RSTableReloadAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B10CF65C7E0AED968402C795DB99B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSTableReloadAnimation_Example";
+			target = C7F81E6D6DDA87A0BD23C05122FB4717 /* Pods-RSTableReloadAnimation_Example */;
+			targetProxy = 4EAA70379F75D7E8F07D94BDBC5427E4 /* PBXContainerItemProxy */;
+		};
+		41216E54279003B2293EB35DDFEF4DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSTableReloadAnimation;
+			target = 244BFD091675B519D7480710CD69EF1F /* RSTableReloadAnimation */;
+			targetProxy = E098503F45D3651425A53DBB49BB9E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BBCAA80BBCC13DCC259856F1CC2B998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DEA3780B857D1B654C49E7E0F4FD0D /* Pods-RSTableReloadAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Tests/Pods-RSTableReloadAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Tests/Pods-RSTableReloadAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		41917C4D30E24B102FCA84DB0FB78FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB44E3BFFDED8885813DD0BCA57028B /* Pods-RSTableReloadAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Tests/Pods-RSTableReloadAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Tests/Pods-RSTableReloadAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		636F1635399A84197BF3EAF251CE0095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C0AF900FC07F6D4E1C72FA6DA3E340 /* RSTableReloadAnimation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSTableReloadAnimation/RSTableReloadAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSTableReloadAnimation/RSTableReloadAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSTableReloadAnimation/RSTableReloadAnimation.modulemap";
+				PRODUCT_MODULE_NAME = RSTableReloadAnimation;
+				PRODUCT_NAME = RSTableReloadAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94E62619D542CA9980C9EF5D9CBB244E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFAEFA54AAF25AF5D9D2DECF096D547 /* Pods-RSTableReloadAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Example/Pods-RSTableReloadAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Example/Pods-RSTableReloadAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0A65571E277F34583B820EAFBB4BA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC6365E38F2185CBB60C536D2CD8984 /* Pods-RSTableReloadAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Example/Pods-RSTableReloadAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSTableReloadAnimation_Example/Pods-RSTableReloadAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CBB4417E8381354D1727D5BCAC0F66F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2779D633AEB841D5C938D261F02428 /* RSTableReloadAnimation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSTableReloadAnimation/RSTableReloadAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSTableReloadAnimation/RSTableReloadAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSTableReloadAnimation/RSTableReloadAnimation.modulemap";
+				PRODUCT_MODULE_NAME = RSTableReloadAnimation;
+				PRODUCT_NAME = RSTableReloadAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A35B80D3446914536E197CD913666F /* Build configuration list for PBXNativeTarget "Pods-RSTableReloadAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A65571E277F34583B820EAFBB4BA6E /* Debug */,
+				94E62619D542CA9980C9EF5D9CBB244E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238EA1642683E80FAC29E28D66BC7C57 /* Build configuration list for PBXNativeTarget "RSTableReloadAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB4417E8381354D1727D5BCAC0F66F4 /* Debug */,
+				636F1635399A84197BF3EAF251CE0095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9722FB1CF24F9AB8C2C6A360DD950C8E /* Build configuration list for PBXNativeTarget "Pods-RSTableReloadAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBCAA80BBCC13DCC259856F1CC2B998 /* Debug */,
+				41917C4D30E24B102FCA84DB0FB78FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

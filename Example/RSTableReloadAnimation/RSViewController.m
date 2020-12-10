@@ -7,6 +7,8 @@
 //
 
 #import "RSViewController.h"
+#import <UITableView+AnimalCell.h>
+
 
 @interface RSViewController ()
 
