@@ -1,9 +1,8 @@
 //
 //  UITableView+AnimalCell.m
-//  Demo_For_7
 //
 //  Created by ahq-pc-01044 on 2017/9/15.
-//  Copyright © 2017年 ahq-pc-01044. All rights reserved.
+//  Copyright © 2017年 YunFengChe. All rights reserved.
 //
 
 #import "UITableView+AnimalCell.h"
